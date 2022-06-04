@@ -53,14 +53,13 @@
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.4.8</Path>
       <Path>Library/PackageCache/com.unity.ugui@1.0.0</Path>
-      <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
+      <Path>Recordings</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>

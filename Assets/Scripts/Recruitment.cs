@@ -13,6 +13,8 @@ public class Recruitment : MonoBehaviour
 
             other.transform.parent = PlayerManager.PlayerManagerCls.transform;
 
+            other.gameObject.GetComponent<memeberManager>().member = true;
+
             if (!other.collider.gameObject.GetComponent<Recruitment>())
             {
                 other.collider.gameObject.AddComponent<Recruitment>();
@@ -20,6 +22,9 @@ public class Recruitment : MonoBehaviour
 
             other.collider.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().material =
                 PlayerManager.PlayerManagerCls.Rblst.ElementAt(0).transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().material;
+            
+            
+            
         }
     }
 }

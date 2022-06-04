@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Recorder", "Unity.Recorder.csproj", "{ee62e307-d1f1-d538-4562-0c7a63664e1f}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{915d2988-a13b-835f-93e8-2dcc1928e068}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Recorder.Base", "Unity.Recorder.Base.csproj", "{bbdd0aa1-1e75-187a-67d4-682e7a95e9ab}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Recorder.Editor", "Unity.Recorder.Editor.csproj", "{be83521d-a912-32e9-c85d-4d5028ba984f}"
@@ -23,6 +25,10 @@ Global
 		{ee62e307-d1f1-d538-4562-0c7a63664e1f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ee62e307-d1f1-d538-4562-0c7a63664e1f}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ee62e307-d1f1-d538-4562-0c7a63664e1f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915d2988-a13b-835f-93e8-2dcc1928e068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915d2988-a13b-835f-93e8-2dcc1928e068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915d2988-a13b-835f-93e8-2dcc1928e068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915d2988-a13b-835f-93e8-2dcc1928e068}.Release|Any CPU.Build.0 = Release|Any CPU
 		{bbdd0aa1-1e75-187a-67d4-682e7a95e9ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{bbdd0aa1-1e75-187a-67d4-682e7a95e9ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{bbdd0aa1-1e75-187a-67d4-682e7a95e9ab}.Release|Any CPU.ActiveCfg = Release|Any CPU
