@@ -145,6 +145,14 @@ public class memeberManager : MonoBehaviour
                     break;
                 }
             }
+            
+             if (PlayerManager.PlayerManagerCls.Rblst.Count == 1)
+            {
+                PlayerManager.PlayerManagerCls.gameState = false;
+                PlayerManager.PlayerManagerCls.Rblst.ElementAt(0).gameObject.SetActive(false);
+                
+                // show the retry button or lose menu
+            }
         }
     }
 }
