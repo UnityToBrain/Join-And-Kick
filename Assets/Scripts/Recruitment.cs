@@ -7,6 +7,7 @@ public class Recruitment : MonoBehaviour
     {
         if (other.collider.CompareTag("add"))
         {
+            other.gameObject.tag = "Finish";
             PlayerManager.PlayerManagerCls.Rblst.Add(other.collider.GetComponent<Rigidbody>());
 
             other.transform.parent = null;
